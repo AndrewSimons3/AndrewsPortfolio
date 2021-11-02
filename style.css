@@ -1,16 +1,16 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
-  --color-primary: #5ec576;
+  --color-primary: #3bc9db;
   --color-secondary: #ffcb03;
   --color-tertiary: #ff585f;
-  --color-primary-darker: #4bbb7d;
+  --color-primary-darker: #1098ad;
   --color-secondary-darker: #ffbb00;
   --color-tertiary-darker: #fd424b;
-  --color-primary-opacity: #5ec5763a;
+  --color-primary-opacity: #1098ad6b;
   --color-secondary-opacity: #ffcd0331;
   --color-tertiary-opacity: #ff58602d;
-  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+  --gradient-primary: linear-gradient(to top left, #3bc9db, #1098ad34);
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
 }
 
@@ -34,6 +34,11 @@ body {
 }
 
 /* GENERAL ELEMENTS */
+
+.nav-top-left-title {
+  font-size: 4rem;
+}
+
 .section {
   padding: 15rem 3rem;
   border-top: 1px solid #ddd;
@@ -100,7 +105,6 @@ p {
   color: #666;
 }
 
-/* This is BAD for accessibility! Don't do in the real world! */
 button:focus {
   outline: none;
 }
@@ -182,7 +186,7 @@ img {
 .header__title {
   flex: 1;
 
-  max-width: 115rem;
+  max-width: 110rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
   row-gap: 3rem;
