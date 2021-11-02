@@ -649,23 +649,27 @@ h4 {
   gap: 2.5rem;
 }
 
-.modal__form label {
-  font-size: 1.7rem;
-  font-weight: 500;
+.contact-info {
+  font-size: 24px;
 }
 
-.modal__form input {
+/* .modal__form label {
+  font-size: 1.7rem;
+  font-weight: 500;
+} */
+
+/* .modal__form input {
   font-size: 1.7rem;
   padding: 1rem 1.5rem;
   border: 1px solid #ddd;
   border-radius: 0.5rem;
-}
+} */
 
-.modal__form button {
+/* .modal__form button {
   grid-column: 1 / span 2;
   justify-self: center;
   margin-top: 1rem;
-}
+} */
 
 .btn--close-modal {
   font-family: inherit;
