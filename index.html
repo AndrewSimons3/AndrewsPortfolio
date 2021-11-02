@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Andrew's Portfolio</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Andrew's Portfolio</title>
 
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <div class="nav-top-left-title">Andrew's Portfolio</div>
-        <ul class="nav__links">
-          <li class="nav__item">
-            <a class="nav__link" href="#section--1">About</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--2">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--3">Testimonials</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<div class="nav-top-left-title">Andrew's Portfolio</div>
+				<ul class="nav__links">
+					<li class="nav__item">
+						<a class="nav__link" href="#section--1">About</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#section--2">Projects</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#section--3">Testimonials</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link nav__link--btn btn--show-modal" href="#"
+							>Contact</a
+						>
+					</li>
+				</ul>
+			</nav>
 
-      <div class="header__title">
-        <!-- <h1 onclick="alert('HTML alert')"> -->
-        <h1>
-          Hello my name is
-          <!-- Green highlight effect -->
-          <span class="highlight">Andrew Simons</span>
-        </h1>
-        <h4>I am an aspiring web developer who is passionate about design and solving problems.</h4>
-        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
-        <img
-          src="img/hero.png"
-          class="header__img"
-          alt="Minimalist bank items"
-        />
-      </div>
-    </header>
+			<div class="header__title">
+				<!-- <h1 onclick="alert('HTML alert')"> -->
+				<h1>
+					Hello my name is
+					<!-- Green highlight effect -->
+					<span class="highlight">Andrew Simons</span>
+				</h1>
+				<h4>
+					I am an aspiring web developer who is passionate about design and
+					solving problems.
+				</h4>
+				<button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+				<img
+					src="img/hero.png"
+					class="header__img"
+					alt="Minimalist bank items"
+				/>
+			</div>
+		</header>
 
-    <!-- <section class="section" id="section--1">
+		<!-- <section class="section" id="section--1">
       <div class="section__title">
         <h2 class="section__description">Features</h2>
         <h3 class="section__header">
@@ -125,185 +128,208 @@
       </div>
     </section> -->
 
-    <section class="section" id="section--2">
-      <div class="section__title">
-        <h2 class="section__description">Projects</h2>
-        <h3 class="section__header">
-          "Believe you can and you're halfway there." - Theodore Roosevelt
-        </h3>
-      </div>
+		<section class="section" id="section--2">
+			<div class="section__title">
+				<h2 class="section__description">Projects</h2>
+				<h3 class="section__header">
+					"Believe you can and you're halfway there." - Theodore Roosevelt
+				</h3>
+			</div>
 
-      <div class="projects">
-        <div class="projects__tab-container">
-          <button
-            class="btn projects__tab projects__tab--1 projects__tab--active"
-            data-tab="1"
-          >
-            <span>01</span>Anita's Bakery
-          </button>
-          <button class="btn projects__tab projects__tab--2" data-tab="2">
-            <span>02</span>Running Tracker
-          </button>
-          <button class="btn projects__tab projects__tab--3" data-tab="3">
-            <span>03</span>Connect Four
-          </button>
-        </div>
-        <div
-          class="projects__content projects__content--1 projects__content--active"
-        >
-          <div class="projects__icon projects__icon--1">
-            <img class="anita-img" src="img/cookie.png">
+			<div class="projects">
+				<div class="projects__tab-container">
+					<button
+						class="btn projects__tab projects__tab--1 projects__tab--active"
+						data-tab="1"
+					>
+						<span>01</span>Anita's Bakery
+					</button>
+					<button class="btn projects__tab projects__tab--2" data-tab="2">
+						<span>02</span>Running Tracker
+					</button>
+					<button class="btn projects__tab projects__tab--3" data-tab="3">
+						<span>03</span>Connect Four
+					</button>
+				</div>
+				<div
+					class="
+						projects__content projects__content--1 projects__content--active
+					"
+				>
+					<div class="projects__icon projects__icon--1">
+						<img class="anita-img" src="img/cookie.png" />
+					</div>
+					<h5 class="projects__header">
+						Shop your favorite baking treats at Anita's Bakery!
+					</h5>
+					<p>
+						This e-commerce bakery website allows the user to choose their
+						favorite treats and add them to their shopping cart for checkout.
+					</p>
+          <div class="btn-app-container">
+            <button class="btn projects_app_github">App</button>
+            <button class="btn projects_app_github">Github</button>
           </div>
-          <h5 class="projects__header">
-            Shop your favorite baking treats at Anita's Bakery!
-          </h5>
-          <p>
-            This e-commerce bakery website allows the user to choose their favorite treats and add them to their shopping cart for checkout.
-          </p>
-        </div>
+				</div>
+       
 
-        <div class="projects__content projects__content--2">
-          <div class="projects__icon projects__icon--2">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-home"></use>
-            </svg>
+				<div class="projects__content projects__content--2">
+					<div class="projects__icon projects__icon--2">
+						<svg>
+							<use xlink:href="img/icons.svg#icon-home"></use>
+						</svg>
+					</div>
+					<h5 class="projects__header">
+						Buy a home or make your dreams come true, with instant loans.
+					</h5>
+					<p>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+						cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum.
+					</p>
+          <div class="btn-app-container">
+            <button class="btn projects_app_github">App</button>
+            <button class="btn projects_app_github">Github</button>
           </div>
-          <h5 class="projects__header">
-            Buy a home or make your dreams come true, with instant loans.
-          </h5>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-        </div>
-        <div class="projects__content projects__content--3">
-          <div class="projects__icon projects__icon--3">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-user-x"></use>
-            </svg>
+				</div>
+				<div class="projects__content projects__content--3">
+					<div class="projects__icon projects__icon--3">
+						<svg>
+							<use xlink:href="img/icons.svg#icon-user-x"></use>
+						</svg>
+					</div>
+					<h5 class="projects__header">
+						No longer need your account? No problem! Close it instantly.
+					</h5>
+					<p>
+						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+						officia deserunt mollit anim id est laborum. Ut enim ad minim
+						veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+						ea commodo consequat.
+					</p>
+          <div class="btn-app-container">
+            <button class="btn projects_app_github">App</button>
+            <button class="btn projects_app_github">Github</button>
           </div>
-          <h5 class="projects__header">
-            No longer need your account? No problem! Close it instantly.
-          </h5>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-        </div>
-      </div>
-    </section>
+				</div>
+			</div>
+		</section>
 
-    <section class="section" id="section--3">
-      <div class="section__title section__title--testimonials">
-        <h2 class="section__description">Testimonials</h2>
-        <h3 class="section__header">
-          “Try to be a rainbow in someone’s cloud.”
-          — Maya Angelou
-        </h3>
-      </div>
+		<section class="section" id="section--3">
+			<div class="section__title section__title--testimonials">
+				<h2 class="section__description">Testimonials</h2>
+				<h3 class="section__header">
+					“Try to be a rainbow in someone’s cloud.” — Maya Angelou
+				</h3>
+			</div>
 
-      <div class="slider">
-        <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              Zollege
-            </h5>
-            <blockquote class="testimonial__text">
-              I hired Andrew in May of 2021 to work on two internal web applications. He worked on a team of 3 developers and jumped right in tackling a number of tricky user interface tasks. Thoughtful, and thoroughly professional, he bonded with the team quickly and always made himself available to help other team members when needed. Andrew has been a valuable member of the team and consistently worked to improve himself. He will make a great addition to any team he is on. 
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Keith Kritselis</h6>
-              <p class="testimonial__location">Austin, TX</p>
-            </address>
-          </div>
-        </div>
+			<div class="slider">
+				<div class="slide">
+					<div class="testimonial">
+						<h5 class="testimonial__header">Zollege</h5>
+						<blockquote class="testimonial__text">
+							I hired Andrew in May of 2021 to work on two internal web
+							applications. He worked on a team of 3 developers and jumped right
+							in tackling a number of tricky user interface tasks. Thoughtful,
+							and thoroughly professional, he bonded with the team quickly and
+							always made himself available to help other team members when
+							needed. Andrew has been a valuable member of the team and
+							consistently worked to improve himself. He will make a great
+							addition to any team he is on.
+						</blockquote>
+						<address class="testimonial__author">
+							<img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+							<h6 class="testimonial__name">Keith Kritselis</h6>
+							<p class="testimonial__location">Austin, TX</p>
+						</address>
+					</div>
+				</div>
 
-        <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              MP Draw Request Solutions
-            </h5>
-            <blockquote class="testimonial__text">
-              When building my website for my new company, Andrew helped with me add UI features and provide feedback to a sleeker and more efficient design.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Adam Peterson</h6>
-              <p class="testimonial__location">Mt. Pleasant, TX</p>
-            </address>
-          </div>
-        </div>
+				<div class="slide">
+					<div class="testimonial">
+						<h5 class="testimonial__header">MP Draw Request Solutions</h5>
+						<blockquote class="testimonial__text">
+							When building my website for my new company, Andrew helped with me
+							add UI features and provide feedback to a sleeker and more
+							efficient design.
+						</blockquote>
+						<address class="testimonial__author">
+							<img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+							<h6 class="testimonial__name">Adam Peterson</h6>
+							<p class="testimonial__location">Mt. Pleasant, TX</p>
+						</address>
+					</div>
+				</div>
 
-        <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              Ryan Dunavant Insurance
-            </h5>
-            <blockquote class="testimonial__text">
-              "Andrew is a great team player and leader with excellent technical skills to match. I was fortunate to get to work with him on multiple projects."
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Ryan Dunavant</h6>
-              <p class="testimonial__location">Mt Vernon, TX</p>
-            </address>
-          </div>
-        </div>
+				<div class="slide">
+					<div class="testimonial">
+						<h5 class="testimonial__header">Ryan Dunavant Insurance</h5>
+						<blockquote class="testimonial__text">
+							"Andrew is a great team player and leader with excellent technical
+							skills to match. I was fortunate to get to work with him on
+							multiple projects."
+						</blockquote>
+						<address class="testimonial__author">
+							<img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+							<h6 class="testimonial__name">Ryan Dunavant</h6>
+							<p class="testimonial__location">Mt Vernon, TX</p>
+						</address>
+					</div>
+				</div>
 
-        <button class="slider__btn slider__btn--left">&larr;</button>
-        <button class="slider__btn slider__btn--right">&rarr;</button>
-        <div class="dots"></div>
-      </div>
-    </section>
+				<button class="slider__btn slider__btn--left">&larr;</button>
+				<button class="slider__btn slider__btn--right">&rarr;</button>
+				<div class="dots"></div>
+			</div>
+		</section>
 
-    <section class="section section--sign-up">
-      <div class="section__title">
-        <h3 class="section__header">
-          The best day to join Bankist was one year ago. The second best is
-          today!
-        </h3>
-      </div>
-      <button class="btn btn--show-modal">Open your free account today!</button>
-    </section>
+		<section class="section section--sign-up">
+			<div class="section__title">
+				<h3 class="section__header">
+					Contact Me Today!
+				</h3>
+			</div>
+			<button class="btn btn--show-modal">Contact</button>
+		</section>
 
-    <footer class="footer">
-      <ul class="footer__nav">
-        <li class="footer__item">
-          <a class="footer__link" href="#">About</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Contact Me</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#Projects">Projects</a>
-        </li>
-      </ul>
-      <img src="img/icon.png" alt="Logo" class="footer__logo" />
-    </footer>
+		<footer class="footer">
+			<ul class="footer__nav">
+				<li class="footer__item">
+					<a class="footer__link" href="#">About</a>
+				</li>
+				<li class="footer__item">
+					<a class="footer__link" href="#">Contact Me</a>
+				</li>
+				<li class="footer__item">
+					<a class="footer__link" href="#Projects">Projects</a>
+				</li>
+			</ul>
+			<img src="img/icon.png" alt="Logo" class="footer__logo" />
+		</footer>
 
-    <div class="modal hidden">
-      <button class="btn--close-modal">&times;</button>
-      <h2 class="modal__header">
-        Open your bank account <br />
-        in just <span class="highlight">5 minutes</span>
-      </h2>
-      <form class="modal__form">
-        <label>First Name</label>
-        <input type="text" />
-        <label>Last Name</label>
-        <input type="text" />
-        <label>Email Address</label>
-        <input type="email" />
-        <button class="btn">Next step &rarr;</button>
-      </form>
-    </div>
-    <div class="overlay hidden"></div>
+		<div class="modal hidden">
+			<button class="btn--close-modal">&times;</button>
+			<h2 class="modal__header">
+				Contact me today!
+			</h2>
+			<form class="modal__form" 
+        action="mailto:simdrew07@gmail.com"
+        method="POST"
+        enctype=”multipart/form-data”
+        name=”EmailForm”>
+				<label>First Name</label>
+				<input type="text" />
+				<label>Last Name</label>
+				<input type="text" />
+				<label>Message</label>
+				<textarea class="contact-comment" name=”ContactComment”></textarea>
+        <button class="btn">Submit &rarr;</button>
+				
+			</form>
+		</div>
+		<div class="overlay hidden"></div>
 
-    <!-- <script src="script.js"></script> -->
-  </body>
+		<!-- <script src="script.js"></script> -->
+	</body>
 </html>
