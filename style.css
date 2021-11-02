@@ -186,7 +186,7 @@ img {
 .header__title {
   flex: 1;
 
-  max-width: 110rem;
+  max-width: 115rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
   row-gap: 3rem;
@@ -273,52 +273,52 @@ h4 {
   margin-bottom: 1rem;
 }
 
-/* OPERATIONS */
-.operations {
+/* projects */
+.projects {
   max-width: 100rem;
   margin: 12rem auto 0 auto;
 
   background-color: #fff;
 }
 
-.operations__tab-container {
+.projects__tab-container {
   display: flex;
   justify-content: center;
 }
 
-.operations__tab {
+.projects__tab {
   margin-right: 2.5rem;
   transform: translateY(-50%);
 }
 
-.operations__tab span {
+.projects__tab span {
   margin-right: 1rem;
   font-weight: 600;
   display: inline-block;
 }
 
-.operations__tab--1 {
+.projects__tab--1 {
   background-color: var(--color-secondary);
 }
 
-.operations__tab--1:hover {
+.projects__tab--1:hover {
   background-color: var(--color-secondary-darker);
 }
 
-.operations__tab--3 {
+.projects__tab--3 {
   background-color: var(--color-tertiary);
   margin: 0;
 }
 
-.operations__tab--3:hover {
+.projects__tab--3:hover {
   background-color: var(--color-tertiary-darker);
 }
 
-.operations__tab--active {
+.projects__tab--active {
   transform: translateY(-66%);
 }
 
-.operations__content {
+.projects__content {
   display: none;
 
   /* JUST PRESENTATIONAL */
@@ -326,20 +326,20 @@ h4 {
   padding: 2.5rem 7rem 6.5rem 7rem;
 }
 
-.operations__content--active {
+.projects__content--active {
   display: grid;
   grid-template-columns: 7rem 1fr;
   column-gap: 3rem;
   row-gap: 0.5rem;
 }
 
-.operations__header {
+.projects__header {
   font-size: 2.25rem;
   font-weight: 500;
   align-self: center;
 }
 
-.operations__icon {
+.projects__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,31 +348,36 @@ h4 {
   border-radius: 50%;
 }
 
-.operations__icon svg {
+.projects__icon svg {
   height: 2.75rem;
   width: 2.75rem;
 }
 
-.operations__content p {
+.projects__content p {
   grid-column: 2;
 }
 
-.operations__icon--1 {
+.projects__icon--1 {
   background-color: var(--color-secondary-opacity);
 }
-.operations__icon--2 {
+
+.anita-img {
+  width: 100px;
+}
+
+.projects__icon--2 {
   background-color: var(--color-primary-opacity);
 }
-.operations__icon--3 {
+.projects__icon--3 {
   background-color: var(--color-tertiary-opacity);
 }
-.operations__icon--1 svg {
+.projects__icon--1 svg {
   fill: var(--color-secondary-darker);
 }
-.operations__icon--2 svg {
+.projects__icon--2 svg {
   fill: var(--color-primary);
 }
-.operations__icon--3 svg {
+.projects__icon--3 svg {
   fill: var(--color-tertiary);
 }
 

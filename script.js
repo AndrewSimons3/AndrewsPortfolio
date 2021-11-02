@@ -7,9 +7,9 @@ const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 const btnScrollTo = document.querySelector('.btn--scroll-to');
 const section1 = document.querySelector('#section--1');
 const nav = document.querySelector('.nav');
-const tabs = document.querySelectorAll('.operations__tab');
-const tabsContainer = document.querySelector('.operations__tab-container');
-const tabsContent = document.querySelectorAll('.operations__content');
+const tabs = document.querySelectorAll('.projects__tab');
+const tabsContainer = document.querySelector('.projects__tab-container');
+const tabsContent = document.querySelectorAll('.projects__content');
 
 ///////////////////////////////////////
 // Modal window
@@ -52,18 +52,6 @@ btnScrollTo.addEventListener('click', function (e) {
     document.documentElement.clientWidth
   );
 
-  // Scrolling
-  // window.scrollTo(
-  //   s1coords.left + window.pageXOffset,
-  //   s1coords.top + window.pageYOffset
-  // );
-
-  // window.scrollTo({
-  //   left: s1coords.left + window.pageXOffset,
-  //   top: s1coords.top + window.pageYOffset,
-  //   behavior: 'smooth',
-  // });
-
   section1.scrollIntoView({ behavior: 'smooth' });
 });
 
@@ -96,22 +84,22 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 // Tabbed component
 
 tabsContainer.addEventListener('click', function (e) {
-  const clicked = e.target.closest('.operations__tab');
+  const clicked = e.target.closest('.projects__tab');
 
   // Guard clause
   if (!clicked) return;
 
   // Remove active classes
-  tabs.forEach(t => t.classList.remove('operations__tab--active'));
-  tabsContent.forEach(c => c.classList.remove('operations__content--active'));
+  tabs.forEach(t => t.classList.remove('projects__tab--active'));
+  tabsContent.forEach(c => c.classList.remove('projects__content--active'));
 
   // Activate tab
-  clicked.classList.add('operations__tab--active');
+  clicked.classList.add('projects__tab--active');
 
   // Activate content area
   document
-    .querySelector(`.operations__content--${clicked.dataset.tab}`)
-    .classList.add('operations__content--active');
+    .querySelector(`.projects__content--${clicked.dataset.tab}`)
+    .classList.add('projects__content--active');
 });
 
 ///////////////////////////////////////
