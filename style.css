@@ -30,7 +30,7 @@ body {
   font-weight: 300;
   color: #444;
   line-height: 1.9;
-  background-color: #f3f3f3;
+  background-color: #e9ecef;
 }
 
 /* GENERAL ELEMENTS */
@@ -185,14 +185,13 @@ img {
 
 .header__title {
   flex: 1;
-
   max-width: 115rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
   row-gap: 3rem;
+  column-gap: 2rem;
   align-content: center;
   justify-content: center;
-
   align-items: start;
   justify-items: start;
 }
@@ -211,7 +210,8 @@ h4 {
   width: 100%;
   grid-column: 2 / 3;
   grid-row: 1 / span 4;
-  transform: translateY(-6rem);
+  border-radius: 25px;
+  box-shadow:rgba(0, 0, 0, 0.295)
 }
 
 .highlight {
