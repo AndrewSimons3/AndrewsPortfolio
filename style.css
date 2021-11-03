@@ -1,5 +1,3 @@
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
-
 :root {
   --color-primary: #3bc9db;
   --color-secondary: #ffcb03;
@@ -362,24 +360,8 @@ h4 {
   background-color: var(--color-secondary-opacity);
 } */
 
-.anita-img {
+.project-img {
   width: 100px;
-}
-
-.projects__icon--2 {
-  background-color: var(--color-primary-opacity);
-}
-.projects__icon--3 {
-  background-color: var(--color-tertiary-opacity);
-}
-.projects__icon--1 svg {
-  fill: var(--color-secondary-darker);
-}
-.projects__icon--2 svg {
-  fill: var(--color-primary);
-}
-.projects__icon--3 svg {
-  fill: var(--color-tertiary);
 }
 
 .btn-app-container {
