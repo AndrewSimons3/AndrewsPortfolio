@@ -205,11 +205,11 @@ h4 {
 }
 
 .header__img {
-  width: 100%;
+  width: 85%;
   grid-column: 2 / 3;
   grid-row: 1 / span 4;
   border-radius: 25px;
-  box-shadow:rgba(0, 0, 0, 0.295)
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .highlight {
